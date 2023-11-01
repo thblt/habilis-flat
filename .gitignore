@@ -1,4 +1,12 @@
 ~*
 \#*#
-fp-info-cache
 habilis-flat-backups
+
+# Footprint cache
+fp-info-cache
+
+# Local config
+*.kicad_prl
+
+# Drill files
+*.drl
