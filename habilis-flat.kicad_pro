@@ -424,11 +424,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "habilis-flat.cad",
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "habilis-flat.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
