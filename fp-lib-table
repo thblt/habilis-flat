@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "habilis-flat")(type "KiCad")(uri "${KIPRJMOD}/habilis-flat.pretty")(options "")(descr ""))
+  (lib (name "project-components")(type "KiCad")(uri "${KIPRJMOD}/project-components.pretty")(options "")(descr ""))
+)
