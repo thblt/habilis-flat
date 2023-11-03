@@ -1,12 +1,16 @@
-~*
-\#*#
-habilis-flat-backups
+# Kicad backups.  The actual name is PROJECT-backups
+/*-backups
 
 # Footprint cache
 fp-info-cache
 
+# Footprint and symbols libraries locations You may want to keep this
+# file if you bundle a project-specific library and you want to share
+# it *as a library*. You don't need to share libraries just for the
+# schematic and PCB: they include the actual symbols and footprints,
+# not just references.
+fp-lib-table
+sym-lib-table
+
 # Local config
 *.kicad_prl
-
-# Drill files
-*.drl
