@@ -1,19 +1,29 @@
-# Kicad backups.  The actual name is PROJECT-backups
-/*-backups
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
-# Footprint cache
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
 fp-info-cache
 
-# Footprint and symbols libraries locations You may want to keep this
-# file if you bundle a project-specific library and you want to share
-# it *as a library*. You don't need to share libraries just for the
-# schematic and PCB: they include the actual symbols and footprints,
-# not just references.
-fp-lib-table
-sym-lib-table
+# Netlist files (exported from Eeschema)
+*.net
 
-# Local config
-*.kicad_prl
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
 
-# Lock files
-*.lck
+# Exported BOM files
+*.xml
+*.csv
