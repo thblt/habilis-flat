@@ -7212,9 +7212,6 @@
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp f3fc93d7-0994-4e10-adfc-4bd89ef6bafc))
   (gr_line (start 75.472212 88.042) (end 81.209557 103.805227)
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp fd4e2de7-6bc3-4981-9da8-25d8d5ef4573))
-  (gr_text "FLAT" (at 97.300408 28.644936) (layer "B.SilkS" knockout) (tstamp bc8855b6-d279-438d-a6d2-2667b0d38160)
-    (effects (font (size 2 2) (thickness 0.3) bold) (justify left bottom mirror))
-  )
 
   (segment (start 115.707567 124.349372) (end 127.958861 136.600666) (width 0.25) (layer "F.Cu") (net 1) (tstamp 0687bf21-5567-4eb0-98a2-532083c6b081))
   (segment (start 108.70048 114.217833) (end 113.181886 118.699239) (width 0.25) (layer "F.Cu") (net 1) (tstamp 075aa626-18ed-4131-bf87-2fc214b0cd90))
