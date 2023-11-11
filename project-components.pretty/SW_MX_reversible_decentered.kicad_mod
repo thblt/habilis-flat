@@ -7,7 +7,7 @@
   (property "ki_description" "Push button switch, generic, two pins")
   (property "ki_keywords" "switch normally-open pushbutton push-button")
   (attr through_hole)
-  (fp_text reference "SW12" (at -2.54 -3.175) (layer "F.SilkS")
+  (fp_text reference "SW12" (at -2.54 -3.175) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 83ffe275-9d00-4e22-bcd6-963b4ec542e7)
   )
@@ -15,7 +15,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7a62a176-ba68-4c4b-86f3-802fe15f73cf)
   )
-  (fp_text user "${REFERENCE}" (at -2.54 -3.175) (layer "B.SilkS")
+  (fp_text user "${REFERENCE}" (at -2.54 -3.175) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     (tstamp e9a6bc5a-6e5f-4ab1-95ec-cf57c6798caf)
   )
@@ -94,4 +94,9 @@
   (pad "1" thru_hole circle (at 1.27 2.54) (size 2.286 2.286) (drill 1.4986) (layers "*.Cu" "*.Mask") (tstamp a96714ef-a7a0-4a78-9cb0-49296232f425))
   (pad "2" thru_hole circle (at -6.35 2.54) (size 2.286 2.286) (drill 1.4986) (layers "*.Cu" "*.Mask") (tstamp 31331e51-4d7a-4361-925c-0f2bbbed8aa5))
   (pad "2" thru_hole circle (at -5.08 0) (size 2.286 2.286) (drill 1.4986) (layers "*.Cu" "*.Mask") (tstamp d4c66798-50e5-49e4-950a-03815e830bfe))
+  (model "C:/Users/Thibault/Documents/kiswitch/library/3dmodels/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+    (offset (xyz -2.54 -5.08 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
