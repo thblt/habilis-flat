@@ -1576,10 +1576,10 @@
   (symbol (lib_id "Connector_Audio:AudioJack4") (at 90.805 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23b2c86b-3e39-4a3d-940a-c2c5477f2d4a)
-    (property "Reference" "Jack_Left" (at 88.265 111.76 0)
+    (property "Reference" "TRRS1" (at 88.265 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AudioJack4" (at 88.265 114.3 0)
+    (property "Value" "Left TRRS cable" (at 88.265 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "project-components:Jack breakout board" (at 90.805 120.65 0)
@@ -1595,7 +1595,7 @@
     (instances
       (project "habilis-flat"
         (path "/30459cb5-f789-45d2-9dbe-3bb0e13b9b1e"
-          (reference "Jack_Left") (unit 1)
+          (reference "TRRS1") (unit 1)
         )
       )
     )
@@ -2370,10 +2370,10 @@
   (symbol (lib_id "Connector_Audio:AudioJack4") (at 120.015 120.65 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90be3493-8cba-498b-bbf9-48a4622c7315)
-    (property "Reference" "Jack_Right" (at 122.555 111.76 0)
+    (property "Reference" "TRRS2" (at 122.555 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AudioJack4" (at 122.555 114.3 0)
+    (property "Value" "Right TRRS cable" (at 122.555 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "project-components:Jack breakout board" (at 120.015 120.65 0)
@@ -2389,7 +2389,7 @@
     (instances
       (project "habilis-flat"
         (path "/30459cb5-f789-45d2-9dbe-3bb0e13b9b1e"
-          (reference "Jack_Right") (unit 1)
+          (reference "TRRS2") (unit 1)
         )
       )
     )
