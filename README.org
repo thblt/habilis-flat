@@ -1,0 +1,11 @@
+#+TITLE: Yet another keyboard
+
+A keyboard, nothing exceptional.  This is mostly an intermediate step
+for layout-testing the [[https://github.com/thblt/habilis][Habilis]].
+
+Schematic and PCB (KiCad 7) are in =pcb/=, firmware lives in =fw/=.
+The firmware is QMK, so should be symlinked in the correct location:
+
+#+begin_example
+ln -s ~/PATH/TO/REPO/habilis-flat/fw ~/qmk_firmware/keyboards/habilis-flat
+#+end_example
