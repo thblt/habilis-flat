@@ -1739,7 +1739,7 @@
     (property "Value" "SW_Push" (at 104.775 134.62 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 106.045 135.89 0)
+    (property "Footprint" "project-components:that_push_button_i_have_in_stock" (at 106.045 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.045 135.89 0)
